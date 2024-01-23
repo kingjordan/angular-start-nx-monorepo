@@ -2,7 +2,9 @@
   "name": "@angular-monorepo/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "start": "firebase emulators:exec --project=demo-project --ui \"nx serve t3-training\""
+  },
   "private": true,
   "dependencies": {
     "@angular/animations": "~17.0.0",
@@ -14,6 +16,8 @@
     "@angular/platform-browser-dynamic": "~17.0.0",
     "@angular/router": "~17.0.0",
     "@nx/angular": "17.2.8",
+    "firebase": "^10.7.2",
+    "rxfire": "^6.0.5",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.14.0"
