@@ -6,7 +6,6 @@ import { RouterModule } from '@angular/router';
   imports: [RouterModule],
   selector: 'angular-monorepo-root',
   templateUrl: './app.component.html',
-  styleUrl: './app.component.scss',
 })
 export class AppComponent {
   title = 't3-training';

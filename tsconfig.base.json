@@ -16,7 +16,7 @@
     "baseUrl": ".",
     "paths": {
       "@angular-monorepo/auth": ["libs/auth/src/index.ts"],
-      "@angular-monorepo/ui": ["libs/shared/ui/src/index.ts"]
+      "@angular-monorepo/utils": ["libs/shared/utils/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

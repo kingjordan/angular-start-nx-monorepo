@@ -1,7 +1,7 @@
 {
-  "name": "ui",
+  "name": "utils",
   "$schema": "../../../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "libs/shared/ui/src",
+  "sourceRoot": "libs/shared/utils/src",
   "prefix": "angular-monorepo",
   "tags": [],
   "projectType": "library",
@@ -10,7 +10,7 @@
       "executor": "@nx/jest:jest",
       "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
       "options": {
-        "jestConfig": "libs/shared/ui/jest.config.ts"
+        "jestConfig": "libs/shared/utils/jest.config.ts"
       }
     },
     "lint": {
